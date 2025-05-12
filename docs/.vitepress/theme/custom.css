@@ -1,0 +1,12 @@
+/* 搜索框移动到右边样式 */
+.VPNavBarSearch {
+  position: absolute !important;
+  right: 180px !important; /* 调整这个值来控制与语言切换按钮的距离 */
+}
+
+/* 在小屏幕上的响应式调整 */
+@media (max-width: 768px) {
+  .VPNavBarSearch {
+    right: 140px !important;
+  }
+} 
